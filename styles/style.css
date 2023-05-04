@@ -1,34 +1,97 @@
 
 /* Main Structure */
 
+html {
+    width: 1280px;
+}
+
 body {
     width: 100%;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 
 #logo {
-    display: block;
-    width: 50%;
-    float: left;
+    width: 40%;
     margin: 0;
     font-size: 24px;
+    flex-direction: row;
+    margin-right: 60px;
+}
+
+#header {
+    flex-direction: row;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding-top: 10px;
     
 }
 
-#secOne {
-    color: rgb(#F9FAF8);
-    background-color: rgb(#1F2937);
+#header a {
+    padding: 0 10px;
+    flex-direction: row-reverse;
+    align-self: center;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 
-#secOne a {
-    display: block;
-    width: fit-content;
-    float: left;
-    padding: 0 10px;
+/* Section One */
+
+#secOne {
+    padding: 10% 0;
+    background-color: #1F2937;
 }
+
+#secOne .col {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Hero One */
+
+#heroOne {
+    width: 48%;
+}
+
+#heroOne h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+#heroOne p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#secOne button {
+    font-size: 18px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    padding: 2px 18px;
+}
+
+/* Hero Two */
+
+#heroTwo {
+    width: 48%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    
+}
+
+
 
 /* Column Setting */
 
 .col {
-    width: 80%;
+    width: 70%;
     margin: auto;
+    display: flex;
 }
