@@ -96,6 +96,7 @@ body {
     width: 25%;
     padding: 1vw;
     text-align: center;
+    margin-bottom: 2vw;
 }
 
 .boxTwo {
@@ -108,6 +109,25 @@ body {
 
 h2 {
     text-align: center;
+    padding: 1vw;
+}
+
+/* Quote Section */
+
+#quote {
+    background-color: #E5E7EB;
+    color: #1F2937;  
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    width: 100%;
+    padding: 2vw;
+}
+
+#quote cite {
+    float: right;
 }
 
 /* Column Setting */
