@@ -1,14 +1,11 @@
 
 /* Main Structure */
 
-html {
-    width: 1280px;
-}
-
 body {
     width: 100%;
     font-family: "Roboto", sans-serif;
     margin: 0;
+    padding: 0;
 }
 
 #logo {
@@ -86,7 +83,32 @@ body {
     
 }
 
+/* Section Two */
 
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box {
+    box-sizing: border-box;
+    width: 25%;
+    padding: 1vw;
+    text-align: center;
+}
+
+.boxTwo {
+    margin: auto;
+    width: 10vw;
+    height: 10vw;
+    border: #3882F6 2px solid;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+}
 
 /* Column Setting */
 
